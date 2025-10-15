@@ -12,7 +12,6 @@ MODEL_FILE = "rf_functional_predictor.joblib"
 TARGET_COLUMN_NAME = 'β_Glucosidase (µmol/g/h)'
 NEW_TARGET_NAME = 'Predicted_Functional_Role'
 
-
 # --- 1. Data Cleaning and Preparation Functions ---
 
 def convert_range(val):

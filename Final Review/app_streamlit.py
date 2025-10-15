@@ -50,11 +50,11 @@ user_input_dict = {}
 
 st.set_page_config(
     page_title="Soil Functional Predictor",
-    page_icon="🌿",
+    page_icon="",
     layout="wide"
 )
 
-st.title("🌿 AI-Driven Soil Functional Potential Predictor")
+st.title("AI-Driven Soil Functional Potential Predictor")
 st.markdown("---")
 
 # ----------------------------------------------------
@@ -101,7 +101,7 @@ with col2:
             proba = prediction_proba[0][model.classes_ == prediction_label][0]
             
             # --- 3. Display Results ---
-            st.header("🔬 Model Prediction")
+            st.header("Model Prediction")
             
             if prediction_label == 'High_C_Degradation':
                 st.success(f"**Predicted Functional Role:** High Carbon Degradation Potential")
